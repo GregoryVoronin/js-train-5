@@ -35,7 +35,7 @@ console.log("sumArray([1, 2, 3, 4, 5])", sumArray([1, 2, 3, 4, 5])); // Виве
 
 // Завдання 3: Дано масив, використовуючи цикл "for of" знайдіть добуток всіх елементів масиву
 function multiplyArray(array) {
-  let sum = 0;
+  let sum = 1;
   for (const n of array) {
     sum *= n;
   }
