@@ -37,7 +37,7 @@ console.log("sumArray([1, 2, 3, 4, 5])", sumArray([1, 2, 3, 4, 5])); // Виве
 function multiplyArray(array) {
   let sum = 0;
   for (const n of array) {
-    sum += n;
+    sum *= n;
   }
   return sum;
   // Ініціалізуємо змінну для зберігання добутку
